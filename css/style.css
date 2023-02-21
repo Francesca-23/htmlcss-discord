@@ -1,0 +1,222 @@
+/* Settings */
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.section-type{
+    display: flex;
+    justify-content: center;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+h2{
+    font-size: 35px;
+}
+
+p{
+    line-height: 25px;
+}
+
+.logo{
+    height: 25px;
+}
+
+svg{
+    fill: lightgrey;
+    background-color: white;
+}
+
+/* Header */
+
+header{
+    height: 400px;
+    background-color: blue;
+}
+
+/* Navigation */
+
+header > nav{
+    height: 20%;
+    background-color: #3161e0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+nav > .navigation{
+    flex-basis: 70%;
+    height: fit-content;
+    display: flex;
+    text-align: center;
+}
+
+.navigation ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.navigation ul li a{
+    color: white;
+    text-decoration: none;
+}
+
+.navigation .bar-1{
+    flex-basis: 25%;
+}
+
+.navigation .bar-2{
+    flex-basis: 50%;
+}
+
+.button.color-white{
+    background-color: white;
+    color: black;
+}
+
+/* Header section */
+
+header .section-type.type-1{
+    height: 80%;
+    background-image: url('../img/jumbo.png');
+    background-size: cover;
+    background-position: center;
+}
+
+section > .card{
+    flex-basis: 50%;
+    text-align: center; 
+    color: white;
+    line-height: 30px; 
+}
+
+.card > h1{
+    font-size: 40px;
+    padding: 30px;
+}
+
+.button.color-black{
+    background-color: #23272a;
+    color: white;
+}
+
+.card > p{
+    margin-bottom: 15px;
+}
+
+.card > .button{
+    margin: 0 10px;
+}
+
+/* Main */
+
+main > .section-type .box, .box-3{
+    margin: 50px 0;
+}
+
+.box{
+    flex-basis: 70%;
+    display: flex;
+}
+
+.box > .box-1{
+    flex-basis: 60%;
+}
+
+.box > .box-2{
+    flex-basis: 40%;
+}
+
+.section-type h2{
+    padding: 20px 0;
+}
+
+.background-grey{
+    background-color: lightgrey;
+}
+
+.section-type > .box-3{
+    flex-basis: 70%;
+    text-align: center;
+}
+
+.box-3 > h3{
+    position: relative;
+    bottom: 20px;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+.button.color-blue{
+    background-color: #7289da;
+    color: white;
+}
+    
+/* Footer */
+
+footer{
+    background-color: #23272a;
+}
+
+.box.space{
+    margin-top: 50px;
+}
+
+footer .section-type .box :first-child{
+    flex-basis: calc((100% / 5) + 8%);
+}
+
+footer .box img{
+    height: 20px;
+}
+
+.large-font{
+    font-size: 30px;
+    margin: 0 20px 25px 0;
+}
+
+footer .box select{
+    background-color: #23272a;
+    color: white;
+    border: 0;
+    font-size: 15px;
+}
+
+.box .column{
+    flex-basis: calc(100% / 5);
+}
+
+ul.column li{
+    list-style-type: none;
+    line-height: 30px;
+    color: white;
+}
+
+footer .box h3{
+    color: #7289da;
+}
+
+.last-section{
+    display: flex;
+    align-items: center;
+    background-color: #23272a;
+}
+
+.last-section .box{
+    justify-content: space-between;
+    margin: auto;
+    border-top: 1px solid #7289da;
+    padding: 25px 0 45px 0;
+}
