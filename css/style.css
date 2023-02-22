@@ -38,6 +38,10 @@ svg{
     background-color: white;
 }
 
+.rotate-180{
+    transform: rotate(180deg);
+}
+
 /* Header */
 
 header{
@@ -88,11 +92,12 @@ nav > .navigation{
 
 /* Header section */
 
-header .section-type.type-1{
+header .section-type{
     height: 80%;
     background-image: url('../img/jumbo.png');
     background-size: cover;
     background-position: center;
+    background-repeat: no-repeat;
 }
 
 section > .card{
@@ -153,10 +158,13 @@ main > .section-type .box, .box-3{
 }
 
 .box-3 > h3{
-    position: relative;
-    bottom: 20px;
     font-size: 30px;
     margin-bottom: 20px;
+    background-image: url('../img/stars.svg');
+    background-size: contain;
+    background-position: center top;
+    background-repeat: no-repeat;
+    padding-top: 30px;
 }
 
 .button.color-blue{
@@ -192,6 +200,11 @@ footer .box select{
     color: white;
     border: 0;
     font-size: 15px;
+}
+
+.fa-brands{
+    color: white;
+    margin: 20px 10px 0 0;
 }
 
 .box .column{
